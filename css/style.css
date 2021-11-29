@@ -17,6 +17,14 @@ p {
   margin-bottom: 0px;
 }
 
+.aboutMe {
+
+}
+
+.intro {
+  
+}
+
 .layout {
   display: grid;
   grid-template-columns: auto;
