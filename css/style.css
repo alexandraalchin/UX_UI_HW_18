@@ -17,16 +17,6 @@ p {
   margin-bottom: 0px;
 }
 
-.layout {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "sidenav sidenav content content content content"
-    "sidenav sidenav content content content content"
-    "sidenav sidenav footer footer footer footer";
-}
-
 #name {
   font-family: 'Zilla Slab', serif;
   font-size: 60px;
@@ -42,20 +32,6 @@ p {
 
 .header {
   grid-area: header;
-}
-
-.content {
-  grid-area: content;
-  margin-top: 25px;
-  width: 80%;
-  font-family: "Roboto", sans-serif;
-  color: black;
-  margin: 0px;
-}
-
-.content a {
-  text-decoration: none;
-  color: black;
 }
 
 #tagline {
@@ -133,3 +109,30 @@ p {
 #footer-right a.active {
   text-decoration: underline;
 }
+
+/*
+css that does not seem to work:
+
+.layout {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "sidenav sidenav content content content content"
+    "sidenav sidenav content content content content"
+    "sidenav sidenav footer footer footer footer";
+}
+
+.content {
+  grid-area: content;
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin: 0px;
+}
+
+.content a {
+  text-decoration: none;
+  color: black;
+}
+*/
