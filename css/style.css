@@ -8,6 +8,10 @@ body {
   margin: 0px;
 }
 
+#aboutHeader {
+  font-size: 40px;
+}
+
 h3 {
  margin: 0px;
 }
@@ -17,12 +21,12 @@ p {
   margin-bottom: 0px;
 }
 
-.aboutMe {
+#aboutMe {
 
 }
 
 .intro {
-  
+
 }
 
 .layout {
