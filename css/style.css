@@ -9,7 +9,7 @@ body {
 }
 
 #aboutHeader {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 h3 {
@@ -27,6 +27,24 @@ p {
 
 .intro {
 
+}
+.contentAbout {
+grid-area: content;
+margin-top: 25px;
+width: 80%;
+font-family: "Roboto", sans-serif;
+color: black;
+margin: 0px;
+}
+
+.layoutAbout {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "sidenav sidenav contentAbout contentAbout contentAbout contentAbout"
+    "sidenav sidenav contentAbout contentAbout contentAbout contentAbout"
+    "sidenav sidenav footer footer footer footer";
 }
 
 .layout {
