@@ -34,17 +34,6 @@ p {
     "sidenav sidenav footer footer footer footer";
 }
 
-.about-text {
-  position: static;
-  width: auto;
-  max-width: 770px;
-  line-height: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 16px;
-  text-align: left;
-}
-
 .content {
   grid-area: content;
   width: 80%;
@@ -128,7 +117,7 @@ p {
 
 .footer-center {
   display: flex;
-  justify-content: flex-start;
+  grid-row: span;
 }
 
 .footer-right {
@@ -152,59 +141,29 @@ p {
   text-decoration: underline;
 }
 
-.skills-block-right {
-  position: static;
-  display: block;
-  padding-right: 4px;
-  padding-bottom: 0px;
-  padding-left: 4px;
-  justify-content: flex-end;
-  border-radius: 0px;
-  font-size: 16px;
-  line-height: 24px;
+ul li{
+  display: inline-table;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.skills-block-left {
+.about-text {
   position: static;
-  display: block;
-  padding-right: 4px;
-  padding-bottom: 0px;
-  padding-left: 4px;
-  justify-content: flex-end;
-  border-radius: 0px;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.skills-block-center-right {
-  position: static;
-  display: block;
-  padding-right: 4px;
-  padding-bottom: 0px;
-  padding-left: 4px;
-  justify-content: flex-end;
-  border-radius: 0px;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.skills-block-center-left {
-  position: static;
-  display: block;
-  padding-right: 4px;
-  padding-bottom: 0px;
-  padding-left: 4px;
-  justify-content: flex-end;
-  border-radius: 0px;
-  font-size: 16px;
-  line-height: 24px;
+  width: auto;
+  max-width: 770px;
+  line-height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .about-skills {
   position: static;
   width: auto;
   max-width: 770px;
-  line-height: 20px;
   margin-right: auto;
   margin-left: auto;
   font-size: 16px;
