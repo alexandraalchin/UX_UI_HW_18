@@ -41,7 +41,6 @@ p {
   line-height: 20px;
   margin-right: auto;
   margin-left: auto;
-  color: black;
   font-size: 16px;
   text-align: left;
 }
@@ -115,7 +114,7 @@ p {
   text-decoration: underline;
 }
 
-.footer {
+.footer-fixed {
   grid-area: footer;
   display: flex;
   position: fixed;
@@ -127,17 +126,16 @@ p {
   margin-bottom: auto;
 }
 
-#footer-center {
+.footer-center {
   display: flex;
-  padding-right: 400px;
-  padding-bottom: 20px;
+  justify-content: flex-start;
 }
 
-#footer-right {
+.footer-right {
   display: flex;
 }
 
-#footer-right a {
+.footer-right a {
   padding: 8px 8px 8px 8px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -146,11 +144,11 @@ p {
   color: #5C5444;
 }
   
-#footer-right a:hover {
+.footer-right a:hover {
   color: black;
 }
 
-#footer-right a.active {
+.footer-right a.active {
   text-decoration: underline;
 }
 
@@ -209,7 +207,23 @@ p {
   line-height: 20px;
   margin-right: auto;
   margin-left: auto;
-  color: black;
   font-size: 16px;
   text-align: left;
+}
+
+.about-main {
+  position: static;
+  width: auto;
+  max-width: 770px;
+  line-height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  text-align: left;
+}
+
+.about-main h3 {
+  padding-top: 100px;
+  text-align: left;
+  font-size: 30px;
 }
