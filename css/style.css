@@ -34,6 +34,10 @@ p {
     "sidenav sidenav footer footer footer footer";
 }
 
+.intro {
+  margin-top: 150px;
+}
+
 .content {
   grid-area: content;
   width: 80%;
@@ -141,6 +145,8 @@ p {
   text-decoration: underline;
 }
 
+/*HW 18 CSS*/
+
 ul li{
   display: inline-table;
   text-align: left;
@@ -156,7 +162,7 @@ ul li{
   margin-right: auto;
   margin-left: auto;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -185,4 +191,57 @@ ul li{
   padding-top: 100px;
   text-align: left;
   font-size: 30px;
+}
+
+.projects {
+  position: static;
+  width: auto;
+  max-width: 770px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.project-snack {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "side-rectangle" "snack-rectangle-1" "snack-rectangle-1" "snack-rectangle-1"
+    "side-rectangle" "snack-rectangle-2" "snack-rectangle-2" "snack-rectangle-2"
+    "side-rectangle" "snack-rectangle-3" "snack-rectangle-3" "snack-rectangle-3"
+    ;
+}
+
+.side-rectangle {
+  height: 1000px;
+  width: 100px;
+  background-color: #5C5444;
+  border-radius: 5px;
+}
+
+.snack-rectangle-1 {
+  width: 550px;
+  height: 250px;
+  background-color: #5C5444;
+  border-radius: 5px;
+  margin: 25px 25px 25px 25px;
+}
+
+.snack-rectangle-2 {
+  width: 550px;
+  height: 250px;
+  background-color: #5C5444;
+  border-radius: 5px;
+  margin: 25px 25px 25px 25px;
+}
+
+.snack-rectangle-3 {
+  width: 550px;
+  height: 250px;
+  background-color: #5C5444;
+  border-radius: 5px;
+  margin: 25px 25px 25px 25px;
 }
