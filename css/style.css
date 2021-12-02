@@ -207,11 +207,11 @@ ul li{
 .project-snack {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: 
-    "side-rectangle" "snack-rectangle-1" "snack-rectangle-1" "snack-rectangle-1"
-    "side-rectangle" "snack-rectangle-2" "snack-rectangle-2" "snack-rectangle-2"
-    "side-rectangle" "snack-rectangle-3" "snack-rectangle-3" "snack-rectangle-3"
+    "side-rectangle" "snack-rectangle" "snack-rectangle" "snack-rectangle"
+    "side-rectangle" "snack-rectangle" "snack-rectangle" "snack-rectangle"
+    "side-rectangle" "snack-rectangle" "snack-rectangle" "snack-rectangle"
     ;
 }
 
@@ -222,23 +222,7 @@ ul li{
   border-radius: 5px;
 }
 
-.snack-rectangle-1 {
-  width: 550px;
-  height: 250px;
-  background-color: #5C5444;
-  border-radius: 5px;
-  margin: 25px 25px 25px 25px;
-}
-
-.snack-rectangle-2 {
-  width: 550px;
-  height: 250px;
-  background-color: #5C5444;
-  border-radius: 5px;
-  margin: 25px 25px 25px 25px;
-}
-
-.snack-rectangle-3 {
+.snack-rectangle {
   width: 550px;
   height: 250px;
   background-color: #5C5444;
