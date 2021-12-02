@@ -239,6 +239,10 @@ ul li{
   margin-left: 575px;
 }
 
+.snack-rectangle a:hover{
+  color: #5C5444;
+  text-decoration: underline;
+}
 /*
 
 Code I am STILLLLL toying with that just won't work.....
