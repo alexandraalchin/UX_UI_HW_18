@@ -224,8 +224,13 @@ ul li{
 .snack-rectangle:hover {
   cursor: pointer;
   background: #FFFFFF;
+  color: #5C5444;
   box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+}
+
+.snack-rectangle h2 {
+  margin-left: 25px;
 }
 
 /*
